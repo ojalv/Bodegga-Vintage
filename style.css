@@ -21,7 +21,7 @@ html {
 }
 main,
 section {
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 20px 10px;
   background-color: var(--color-1);
 }
