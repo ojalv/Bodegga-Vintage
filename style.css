@@ -67,5 +67,35 @@ nav > ul > li {
   padding: 10px;
 }
 
-
 /*Contacto*/
+#contacto {
+  background-color: var(--color-3);
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+#contacto > img{
+  max-width: 250px;
+  border-radius: 100%;
+  border: solid 1px var(--color-5);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contacto > div{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+#contacto > div > svg{
+background-color: var(--color-1);
+border: solid 1px var(--color-5);
+border-radius: 100%;
+width: 32px;
+height: 32px;
+padding: 2px;
+}
