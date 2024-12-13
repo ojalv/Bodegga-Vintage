@@ -79,7 +79,6 @@ nav > ul > li {
 #contacto > img{
   max-width: 250px;
   border-radius: 100%;
-  border: solid 1px var(--color-5);
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -93,7 +92,6 @@ nav > ul > li {
 
 #contacto > div > svg{
 background-color: var(--color-1);
-border: solid 1px var(--color-5);
 border-radius: 100%;
 width: 32px;
 height: 32px;
