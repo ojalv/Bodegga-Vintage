@@ -135,3 +135,29 @@ nav > ul > li {
   height: 32px;
   padding: 2px;
 }
+
+/* Estilo del botón flotante */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Espaciado desde abajo */
+  right: 20px; /* Espaciado desde la derecha */
+  z-index: 1000; /* Asegura que esté por encima del resto del contenido */
+  width: 60px; /* Tamaño del ícono */
+  height: 60px;
+  border-radius: 50%; /* Forma redonda */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: #1fd662; /* Color verde de WhatsApp */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+#whatsapp-button img {
+  width: 40px; /* Tamaño del ícono */
+  height: 40px;
+}
