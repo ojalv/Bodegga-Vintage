@@ -5,14 +5,13 @@
   --color-4: #ffffff;
   --color-5: #000000;
   --font-1: "Dancing Script", cursive;
-  --font-2:  "Lato", sans-serif;
+  --font-2: "Lato", sans-serif;
   --font-size-xxl: 48px;
   --font-size-xl: 36px;
   --font-size-l: 24px;
   --font-size-s: 12px;
   --font-size-xs: 6px;
 }
-
 
 .dancing {
   font-family: "Dancing Script", cursive;
@@ -103,6 +102,7 @@ nav > ul > li {
   width: 100px;
   text-align: center;
   padding: 10px;
+  user-select: none;
 }
 
 /*Contacto*/
@@ -114,24 +114,24 @@ nav > ul > li {
   justify-content: center;
 }
 
-#contacto > img{
+#contacto > img {
   max-width: 250px;
   border-radius: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#contacto > div{
+#contacto > div {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-top: 4px;
 }
 
-#contacto > div > svg{
-background-color: var(--color-1);
-border-radius: 100%;
-width: 32px;
-height: 32px;
-padding: 2px;
+#contacto > div > svg {
+  background-color: var(--color-1);
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  padding: 2px;
 }
