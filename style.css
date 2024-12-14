@@ -52,7 +52,6 @@ p {
 header,
 main,
 section:not(#contacto) {
-  min-height: 60vh;
   padding: 20px 10px;
   background-color: var(--color-1);
 }
