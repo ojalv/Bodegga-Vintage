@@ -4,11 +4,14 @@
   --color-3: #fac3d6;
   --color-4: #ffffff;
   --color-5: #000000;
+  --color-6: #fc6d9f;
+  --color-7:#293b2e;
   --font-1: "Dancing Script", cursive;
   --font-2: "Lato", sans-serif;
-  --font-size-xxl: 48px;
-  --font-size-xl: 36px;
+  --font-size-xxl: 52px;
+  --font-size-xl: 42px;
   --font-size-l: 24px;
+  --font-size-m: 18px;
   --font-size-s: 12px;
   --font-size-xs: 6px;
 }
@@ -37,16 +40,29 @@ h1 {
   font-family: var(--font-1);
   font-weight: 600;
   font-size: var(--font-size-xxl);
+  color: var(--color-6);
+  padding: 40px 20px;
+  font-weight: 800;
+}
+
+h1 span {
+  color: var(--color-7);
+  font-weight: 500;
 }
 
 h2 {
   font-family: var(--font-1);
   font-weight: 200;
   font-size: var(--font-size-xl);
+  color: var(--color-7);
+  background-color: var(--color-3);
+  border-radius: 40px;
 }
 
-p {
+p,li {
   font-family: var(--font-2);
+  font-size: var(--font-size-l);
+  color: var(--color-7);
 }
 
 header,
@@ -68,12 +84,17 @@ header {
   padding: 20px 0px;
   padding-top: 0px;
 }
+
+header a{
+  color: var(--color-6);
+}
 .logo {
   max-width: 150px;
   border-radius: 100%;
 }
 
-.banner {
+.header-content{
+  margin: 0px 10px;
 }
 
 nav {
@@ -102,6 +123,7 @@ nav > ul > li {
   text-align: center;
   padding: 10px;
   user-select: none;
+  font-size: var(--font-size-m);
 }
 
 /*Contacto*/
@@ -112,6 +134,10 @@ nav > ul > li {
   align-items: baseline;
   justify-content: center;
   padding: 20px 10px;
+}
+
+#contacto a {
+  color: var(--color-7);
 }
 
 #contacto > img {
@@ -162,7 +188,7 @@ nav > ul > li {
   height: 40px;
 }
 
-@media(min-width: 768px){
+@media(min-width: 600px){
   #contacto {
     display: grid;
     grid-template-areas: "title title" "contact logo";
