@@ -96,7 +96,7 @@ a {
   background-color: var(--color-6);
 }
 
-.cta .svg-container{
+.cta .svg-container {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -111,7 +111,7 @@ a {
   max-width: 120px;
 }
 
-.cta img{
+.cta img {
   border-radius: 100%;
   width: 60px;
   position: absolute;
@@ -128,7 +128,7 @@ a {
   margin-top: 20px;
 }
 
-.cta .button{
+.cta .button {
   width: 100%;
   max-width: 500px;
   height: 30%;
@@ -239,6 +239,8 @@ nav > ul > li {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: var(--color-3);
   padding: 20px;
@@ -374,5 +376,12 @@ nav > ul > li {
   }
   nav ul {
     border-radius: 40px;
+  }
+}
+
+@media (min-width: 900px) {
+  #conocenos .card-1 {
+    flex-direction: row;
+    gap: 50px;
   }
 }
