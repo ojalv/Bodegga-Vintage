@@ -299,6 +299,18 @@ nav > ul > li {
   padding: 2px;
 }
 
+footer {
+  padding: 20px;
+  background-color: var(--color-6);
+}
+footer p{
+  color: var(--color-5);
+}
+
+footer a{
+  color: var(--color-5);
+}
+
 /* Estilo del botón flotante */
 #whatsapp-button {
   position: fixed;
@@ -383,13 +395,26 @@ nav > ul > li {
   nav ul {
     border-radius: 40px;
   }
-}
-
-@media (min-width: 900px) {
   #conocenos .card-1 {
     flex-direction: row;
     gap: 50px;
   }
 
+  .cards-container p {
+    font-size: var(--font-size-l);
+  }
 
+  .cards-container .card {
+    max-width: 300px;
+  }
+
+  .cards-container {
+    gap: 50px;
+  }
+
+  #contacto a,
+  #contacto p,
+  #contacto span {
+    font-size: var(--font-size-l);
+  }
 }
