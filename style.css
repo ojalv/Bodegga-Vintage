@@ -377,6 +377,10 @@ footer a{
     font-size: 60px;
   }
 
+  h3{
+    font-size: 80px !important;
+  }
+
   .logo {
     max-width: 150px;
     border-radius: 100%;
