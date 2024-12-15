@@ -9,7 +9,7 @@
   --font-1: "Dancing Script", cursive;
   --font-2: "Lato", sans-serif;
   --font-size-xxl: 52px;
-  --font-size-xl: 42px;
+  --font-size-xl: 40px;
   --font-size-l: 24px;
   --font-size-m: 18px;
   --font-size-s: 12px;
@@ -143,8 +143,37 @@ nav > ul > li {
 }
 
 /*card talles*/
-header .card img{
-width: 100%;
+
+.header-content .cards-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-content .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  background-color: var(--color-5);
+  padding: 20px;
+  border-radius: 18px;
+  max-width: 280px;
+}
+
+.header-content .card h3 {
+  font-size: var(--font-size-xl);
+  color: var(--color-6);
+}
+.header-content .card p {
+  font-size: var(--font-size-m);
+  color: var(--color-6);
+}
+.header-content .card img {
+  border-radius: 100%;
+  max-width: 90%;
+  margin-bottom: 20px;
 }
 
 /*Conocenos*/
@@ -236,6 +265,13 @@ width: 100%;
 }
 
 @media (min-width: 600px) {
+  /*header cards*/
+  .header-content .cards-container{
+    flex-direction: row-reverse;
+  }
+
+
+  /*contacto*/
   #contacto {
     display: grid;
     grid-template-areas: "title logo" "contact logo";
