@@ -156,25 +156,27 @@ nav > ul > li {
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  align-items: center;
+  align-items: baseline;
   background-color: var(--color-5);
-  padding: 20px;
   border-radius: 18px;
-  max-width: 425px;
+  padding: 20px;
 }
 
 .header-content .card h3 {
   font-size: var(--font-size-xl);
   color: var(--color-6);
+  margin-bottom: 8px;
+  width: fit-content;
+  border-radius: 100%;
 }
 .header-content .card p {
   font-size: var(--font-size-m);
-  color: var(--color-6);
+  color: var(--color-3);
 }
 .header-content .card img {
-  border-radius: 100%;
-  max-width: 90%;
+  width: 100%;
   margin-bottom: 20px;
+  border-radius: 100%;
 }
 
 /*Conocenos*/
@@ -267,10 +269,14 @@ nav > ul > li {
 
 @media (min-width: 600px) {
   /*header cards*/
-  .header-content .cards-container{
+  .header-content .cards-container {
     flex-direction: row-reverse;
+    align-items: stretch;
   }
 
+  .header-content .cards-container .card{
+    max-width: 240px;
+  }
 
   /*contacto*/
   #contacto {
