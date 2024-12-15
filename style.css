@@ -106,7 +106,7 @@ header a {
   color: var(--color-6);
 }
 .logo {
-  max-width: 150px;
+  max-width: 200px;
   border-radius: 100%;
 }
 
@@ -301,6 +301,11 @@ nav > ul > li {
   h2 {
     font-weight: 100;
   }
+
+  .logo {
+    max-width: 150px;
+    border-radius: 100%;
+  }  
   nav {
     display: flex;
     flex-direction: row-reverse;
