@@ -148,6 +148,7 @@ nav > ul > li {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
