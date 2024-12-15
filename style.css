@@ -71,7 +71,7 @@ li {
   color: var(--color-7);
 }
 header {
-  min-height: 100vh;
+  height: fit-content;
 }
 
 header,
@@ -356,8 +356,13 @@ nav > ul > li {
 }
 
 @media (min-width: 900px) {
+  h1 {
+    font-size: 100px;
+  }
+
   h2 {
     font-weight: 100;
+    font-size: 60px;
   }
 
   .logo {
@@ -385,4 +390,6 @@ nav > ul > li {
     flex-direction: row;
     gap: 50px;
   }
+
+
 }
